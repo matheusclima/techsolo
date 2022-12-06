@@ -1,0 +1,67 @@
+
+    header {
+        display: grid;
+        grid-template-areas:
+            'img navtop'
+            'img navbot';
+    }
+    
+    header img {
+        grid-area: img;
+        width: 100%;
+        opacity: 80%;
+    }
+    
+    .nav {
+        display: flex;
+        background-color: var(--blue-bgcolor);
+        width: 90vw;
+        align-items: center;
+        padding: 0 2rem;
+    }
+    
+    .nav-top {
+        grid-area: navtop;
+        justify-content: space-between;
+    }
+    
+    .nav ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav-bottom {
+        grid-area: navbot;
+        color: white;
+    }
+    
+    .search input {
+        width: 40vw;
+        outline: none;
+        
+    } 
+    
+    .search button {
+        border: none;
+        border-radius: 5px;
+    }
+    
+    
+    .navbar li a {
+       text-decoration: none;
+       color: white;
+    } 
+    
+    .navbar li i {
+        font-size: 2rem;
+    }
+    
+    .nav-bottom i {
+        font-size: 0.75rem;
+    }
+    

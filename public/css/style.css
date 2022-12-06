@@ -1,0 +1,14 @@
+:root {
+  --blue-bgcolor: #344969 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+main {
+  background-color: #D6D6D6;
+  padding: 1rem 0;
+}

@@ -1,5 +1,5 @@
 module.exports = {
     index: (req, res) => {
-        return res.send('User')
+        return res.render('login')
     }
 }
